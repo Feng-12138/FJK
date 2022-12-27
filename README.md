@@ -8,3 +8,6 @@ export MONGODB_URI='mongodb+srv://Feng-12138:2005yyds@cluster0.mnj5ncy.mongodb.n
 
 Reference:
 https://www.mongodb.com/docs/drivers/go/current/quick-start/#std-label-golang-quickstart
+
+#database plan:
+#https://coda.io/d/Database-Plan_daWwFG5dKaT/Database-Plan_suEUu#_luBQF
