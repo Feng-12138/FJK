@@ -171,7 +171,7 @@ for idx in range(400):
     else:
         order_info['delivered_time'] = None
     order_info_list.append(order_info)
-        
+    
 for idx in range(300):
     address_info = {}
     address_id = uuid.uuid4()
@@ -242,12 +242,6 @@ for idx in range(100):
     shopping_cart_info['cloth_info_list'] = cloth_id_list
     shopping_cart_info_list.append(shopping_cart_info)
     
-    
-# print(mongoClient)
-# database = mongoClient['customer_facing']
-# collection = database['user']
-# collection.insert_many(user_info_list)
-# mongoClient.close()
 
 
 
@@ -264,32 +258,6 @@ with mongoClient.start_session() as session:
         
     except Exception as e:
         print(e)
-        
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    # print(available)
-    
-    
-    
-    
-    
-    
-
-# for _ in range(5):
-#     fake.paragraph(nb_sentences=5)
-    
-
