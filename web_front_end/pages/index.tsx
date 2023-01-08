@@ -2,10 +2,17 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import mochi from '../public/3991672806245_.pic.jpg'
+import bird from '../public/4001672806245_.pic.jpg'
+import cat from '../public/4011672806264_.pic.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  console.log(mochi.src)
+  console.log(bird.src)
+  console.log(cat.src)
+
   return (
     <>
       <Head>
