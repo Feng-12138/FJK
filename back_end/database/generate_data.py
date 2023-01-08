@@ -39,7 +39,7 @@ name_list = ['Black Attachment Turtle Neck Warmer', 'Black Stripe Ponte T-Shirt'
 
 size_list = ['XS', "S", "M", "L", "XL"]
 
-order_status_list = ['error', 'order received', 'shipping', 'delivered', 'expired', 'returned']
+order_status_list = ['error', 'order received', 'shipping', 'delivered', 'expired', 'returned', "cancelled"]
 
 amount_list = [1, 2, 3]
 
